@@ -1,0 +1,27 @@
+package world;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+		
+		int i = 10;
+		float f = 12.34f;
+		double d = 56.78;
+		char c = 'a';
+		String s = "Hello World";
+		boolean b = true;
+		
+		// int
+		System.out.printf("%d\n",i);
+		System.out.printf("%10d\n",i);
+		System.out.printf("%-10d\n",i);
+		System.out.printf("%010d\n",i);
+		System.out.printf("%o\n",i);
+		System.out.printf("%x\n",i);
+		System.out.printf("%X\n",i);
+		System.out.printf("%n");
+		System.out.println();
+		
+	}
+
+}

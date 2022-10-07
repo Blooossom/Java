@@ -1,0 +1,16 @@
+package world;
+
+import java.util.Scanner;
+
+public class Helloworld {
+
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	String B = sc.next();
+	
+	System.out.println(B.charAt(0)+B.charAt(1)+B.charAt(2));
+			
+}
+
+}

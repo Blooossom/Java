@@ -1,0 +1,18 @@
+package ch11;
+
+public class TypeConversionTest {
+
+	public static void main(String[] args) {
+		
+		
+		int inum = 255;
+		byte bnum = (byte)inum;
+		System.out.println(bnum);
+		
+		double dnum = 3.14;
+		int inum1 = (int)dnum;
+		
+		System.out.println(inum1);
+	}
+
+}
